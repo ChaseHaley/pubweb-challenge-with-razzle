@@ -5,9 +5,10 @@
 Clone the repository and run:
 ```bash
 npm i
-yarn start
+npm start
 ```
 or
 ```bash
-npm start
+npm i
+yarn start
 ```

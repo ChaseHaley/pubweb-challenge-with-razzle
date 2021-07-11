@@ -19,6 +19,9 @@ const Home = () => {
                 <Helmet>
                     <title>Clayton Homes | Home Listings</title>
                     <meta name="description" content="Clayton Homes Home Page" />
+                    <link rel="preconnect" href="https://fonts.googleapis.com" />
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
                 </Helmet>
                 <ListingsHeader numListings={listings.length} sortByPriceDescending={sortByPriceDescending} setSortByPriceDescending={setSortByPriceDescending} />
                 <ListingContainer numItemsToDisplay={numItemsToDisplay} sortByPriceDescending={sortByPriceDescending} />

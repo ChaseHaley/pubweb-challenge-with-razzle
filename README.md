@@ -4,5 +4,10 @@
 
 Clone the repository and run:
 ```bash
+npm i
 yarn start
+```
+or
+```bash
+npm start
 ```

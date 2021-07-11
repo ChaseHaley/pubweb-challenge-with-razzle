@@ -2,13 +2,16 @@
 
 ## How to use
 
-Clone the repository and run:
+To initialize the project, clone the repository and run:
 ```bash
 npm i
+```
+
+To run the project:
+```bash
 npm start
 ```
 or
 ```bash
-npm i
 yarn start
 ```
